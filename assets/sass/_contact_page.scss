@@ -1,0 +1,109 @@
+.contact_banner{
+    background-image: url(../img/contactbanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    .bannerbg{
+        background: $bannerbg;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+}
+.banner_content{
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    background: transparent;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    img{
+        height: 40rem;
+        width: auto;
+        object-fit: cover;
+        z-index: -1;
+    }
+}
+.banner_contents{
+    text-align: center;
+    padding-top:10rem;
+    h1{
+        @include heading1 ($color:#000,$fontsize:4.5rem);
+        position: relative;
+        text-transform: uppercase;
+        span{
+            color: red;
+        }
+    }
+    p{
+        @include peragraph($fsize:2rem,$color:#000);
+        padding: 1rem 0rem;
+    }
+}
+.contact_details{
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    min-height: 12.5rem;
+    display: flex;
+    justify-content:flex-start;
+    padding: 1rem;
+    justify-items: center;
+    align-items: center;
+    transition: 1s all;
+    &:hover{
+        border-radius: 3rem;
+        background: var(--header_bg);
+        a,p{
+            color: #fff;
+        }
+        .detais_icon{
+            background: #BD1D1D;
+            
+        }
+    }
+}
+.detais_icon{
+    background: #000;
+    padding: 1rem;
+    border-radius: 10%;
+    margin-right: 1.5rem;
+    span{
+        color: var(--color2);
+        font-size: 2rem;
+    }
+}
+.details_info{
+    p{
+        @include peragraph($fw:700)
+    }
+    a:hover{
+        color: red;
+        transition: 0.35s all;
+    }
+}
+
+// form css
+.form_banner{
+    background-image: url(../img/contactbanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    .form_bg{
+        background: rgba(255, 255, 255, 0.75);
+    }
+}
+.form_content{
+    strong{
+        font-size: 3rem;
+        border-bottom: 3px dotted #fff ;
+    }
+    h3{
+        @include heading1($fontsize:4.5rem,$color:#000);
+        text-transform: capitalize;
+    }
+}
+.form_content{
+    padding: 1rem;
+}
+.contact_form{
+    padding: 2rem;
+}
