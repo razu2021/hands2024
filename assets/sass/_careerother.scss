@@ -332,15 +332,97 @@
     }
 }
 
+// u-------------  user profile modal ------
+.profile_section{
+    border-left: 2px solid gray;
+    padding: 2rem;
+    height: 100vh;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    overflow: hidden;
+  
+}
+.user_profile{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    display: grid;
+}
+.user_profile_image{
+
+    height: 15rem;
+    width:15rem;
+    object-fit: cover;
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 2px solid #fc975d;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;    
+    }
+}
+.user_profile_info{
+    padding: 1rem 0rem;
+    text-align: center;
+    h3{
+        text-transform: capitalize;
+        font-weight: 700;
+        padding-bottom:.8rem ;
+    }
+}
+.user_log{
+    text-align: center;
+    border-bottom: 2px dotted #000;
+    padding-bottom: 2rem;
+    button{
+        border: none;
+        background: $color4;
+        padding: .8rem;
+        border-radius: 1rem;
+        transition: all .40s;
+        &:hover{
+            background: transparent;
+            border: 1px solid gray;
+            a{
+                color: red;
+            }
+        }
+        a{
+            color: #fff;
+            padding: .4rem;
+        }
+    }
+}
+.flow_us_social{
+    padding: 2rem 0rem;
+    border-bottom: 2px dotted gray;
+}
+.app_download{
+    padding: 2rem 0rem;
+    text-align: center;
+    button{
+        border: 1px solid gray;
+        padding: .8rem;
+
+        a{
+            img{
+                height:3.5rem;
+            }
+        }
+    }
+}
 
 
 
-
-
-
-
-
-
-
-
-
+.user_faq{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    display: grid;
+    h1{
+        color: #fc975d;
+    }
+}

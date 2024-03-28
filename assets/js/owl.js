@@ -1,4 +1,45 @@
 
+//index main slider 
+$(document).ready(function(){
+    $(".index_banner_sliders").owlCarousel({
+        autoplay:true,
+        loop:true,
+        items:1,
+        smartSpeed:500,
+        lazyLoad:true,
+
+
+    });
+  });
+// index banner end 
+$(document).ready(function(){
+    $(".index_whats_new_services").owlCarousel({
+        autoplay:true,
+        loop:true,
+        smartSpeed:500,
+        lazyLoad:true,
+        dots:false,
+        nav:true,
+        navText: ["<span class='new_prev'>  <  </span>", "<span class='new_next'> > </span>"],
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:1
+            },
+            1000:{
+                items:4
+            }
+        }
+
+
+    });
+  });
+// index banner end 
+
+
+
 $(document).ready(function(){
     $(".container_slider").owlCarousel({
         autoplay:true,

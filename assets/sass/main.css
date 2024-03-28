@@ -394,6 +394,354 @@ form .submit_button {
   border: 1px solid #f38e0b;
 }
 
+.index_banner {
+  background-image: url("../img/banner-bg1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.index_banner_bg {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.index_main_slider {
+  height: 100vh;
+  width: 100vw;
+}
+
+.index_slider_content {
+  height: 100vh;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  align-content: center;
+  display: grid;
+}
+.index_slider_content p:first-child {
+  color: #e93c05;
+  font-weight: 700;
+  letter-spacing: 0.3rem;
+}
+.index_slider_content h1 {
+  color: #011a41;
+  font-size: 4.8rem;
+  font-weight: 900;
+  padding: 1rem 0rem;
+}
+
+.index_slider_img {
+  justify-content: end;
+  align-items: center;
+  display: grid;
+  height: 80rem;
+  width: 100%;
+  padding-top: 5rem;
+}
+.index_slider_img img {
+  justify-content: end;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.button3 {
+  padding-top: 3.5rem;
+}
+.button3 button {
+  border: 1px solid #fff;
+  padding: 1rem 1.5rem;
+  background-color: #e93c05;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.4s;
+}
+.button3 button:hover {
+  background-color: transparent;
+}
+.button3 button:hover a {
+  color: #000;
+}
+.button3 button a {
+  color: #fff;
+}
+
+.owl-carousel .owl-item.active .index_slider .index_slider_content p {
+  animation: fadeInDown 2s linear;
+}
+
+.owl-carousel .owl-item.active .index_slider .index_slider_content h1 {
+  animation: fadeInUp 2s linear;
+}
+
+.owl-carousel .owl-item.active .index_slider .index_slider_content button {
+  animation: fadeInUp 2s linear;
+}
+
+.owl-carousel .owl-item.active .index_slider .index_slider_img {
+  animation: fadeInUp 2s linear;
+  padding: 2rem;
+}
+
+#section_id {
+  position: relative;
+}
+
+.index_banner_social {
+  position: fixed;
+  top: 30%;
+  right: 0;
+  z-index: 1040;
+}
+
+.index_social {
+  background-color: #fff;
+  padding: 0.5rem;
+}
+.index_social ul li {
+  display: block;
+  padding: 0.5rem;
+  margin: 0.5rem 0rem;
+  transition: all 0.4s;
+}
+.index_social ul li:hover {
+  background: red;
+}
+.index_social ul li:hover a {
+  color: #fff;
+}
+.index_social ul li a {
+  font-size: 2rem;
+}
+
+.whats_new_slider {
+  padding: 1rem;
+}
+
+.whats_new_image {
+  height: 50rem;
+  width: auto;
+}
+.whats_new_image img {
+  height: 100%;
+  width: auto;
+  margin: 1rem;
+}
+
+.whtas_new_button button {
+  border: 1px solid #fff;
+  text-align: center;
+  width: 100%;
+  background: #141d3b;
+  margin: 0rem 1rem;
+  padding: 1rem 0rem;
+}
+.whtas_new_button button a {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 1rem;
+}
+
+.whats_new_banner {
+  position: relative;
+}
+
+.new_prev {
+  left: 1%;
+  top: 40%;
+  color: white;
+  font-size: 3rem;
+  background-color: #141d3b;
+  padding: 0rem 0.5rem;
+  border: 1px solid #000;
+}
+
+.new_next {
+  right: 0%;
+  top: 40%;
+  color: #fff;
+  font-size: 3rem;
+  background-color: #141d3b;
+  padding: 0rem 0.5rem;
+  border: 1px solid #000;
+}
+
+.section_index_banner {
+  background-image: url("../img/microfinance.png");
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section_index_bannerbg {
+  background: linear-gradient(311deg, rgba(255, 255, 255, 0.2133228291) 26%, rgba(255, 255, 255, 0.9220063025) 48%);
+}
+
+.secb_con {
+  text-align: center;
+  padding: 10rem 0rem;
+}
+.secb_con h1 {
+  font-size: 5.5rem;
+  color: #141d3b;
+  font-weight: 900;
+}
+.secb_con h3 {
+  color: rgb(20, 109, 211);
+  padding: 1.7rem 0rem;
+}
+.secb_con button {
+  text-align: center;
+  padding: 1rem 1rem;
+  border: 1px solid white;
+  background-color: #011a41;
+  width: 75%;
+}
+.secb_con button a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.2rem;
+  letter-spacing: 1rem;
+}
+
+.index_service_loan {
+  border: 1px solid #141d3b;
+  text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1.2rem;
+}
+
+.index_service_icon span {
+  color: #3ca8f0;
+  font-size: 3.5rem;
+  padding: 1rem;
+  height: 6rem;
+  width: 6rem;
+}
+
+.index_service_loan_con p {
+  padding: 2rem 0rem;
+  text-transform: capitalize;
+}
+
+.section_index_banner_saving {
+  background-image: url("../img/famil_saving.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.loan_steps {
+  padding: 2rem;
+  text-align: center;
+  height: 40rem;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  display: grid;
+  transition: all 1s;
+}
+.loan_steps:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.loan_steps:hover .loan_step_icon {
+  background-color: #fff;
+  border: 1rem solid rgb(233, 60, 51);
+  outline: 2.6rem solid rgba(20, 29, 59, 0.99);
+  transition: all 1s;
+}
+
+.loan_step_icon {
+  height: 8rem;
+  width: 8rem;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  display: grid;
+  border-radius: 50%;
+  background-color: #f5af9a;
+  border: 0.7rem solid rgb(233, 60, 50);
+  outline: 1.8rem solid rgba(20, 29, 59, 0.36);
+}
+.loan_step_icon span {
+  font-size: 3.5rem;
+  color: #141d3b;
+}
+
+.loan_step_cont {
+  padding-top: 2rem;
+}
+.loan_step_cont h3 {
+  color: #141d3b;
+  font-weight: 700;
+}
+
+.faqbgimage {
+  background-image: url("../img/banner-bg1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.faqbg {
+  background: rgba(255, 255, 255, 0.48);
+}
+
+.faq_head p:first-child {
+  color: #e93c05;
+  font-weight: 900;
+  letter-spacing: 1rem;
+}
+.faq_head h2 {
+  font-weight: 700;
+  color: #141d3b;
+  padding: 1rem 0rem;
+}
+.faq_head p:last-child {
+  padding-bottom: 2rem;
+}
+
+.faq {
+  padding: 2rem 4rem;
+}
+
+.faq_qus {
+  border: 1px solid #011a41;
+  margin-bottom: 0.5rem;
+}
+.faq_qus button {
+  background: linear-gradient(90deg, rgb(1, 26, 65) 90%, rgb(255, 255, 255) 10%);
+  color: white;
+}
+
+.faq_body {
+  background: rgba(20, 29, 59, 0.99);
+  margin-bottom: 0.5rem;
+}
+.faq_body p {
+  color: #fff;
+}
+
+.clint_faq_image {
+  height: 40rem;
+  width: 100%;
+}
+.clint_faq_image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-clip-path: circle(69% at 76% 32%);
+          clip-path: circle(69% at 76% 32%);
+}
+
 .microfinacne_content h5 {
   border-bottom: 1px solid bisque;
   display: inline-block;
@@ -2352,6 +2700,116 @@ form .submit_button {
   color: green;
 }
 
+.profile_section {
+  border-left: 2px solid gray;
+  padding: 2rem;
+  height: 100vh;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  overflow: hidden;
+}
+
+.user_profile {
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  display: grid;
+}
+
+.user_profile_image {
+  height: 15rem;
+  width: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.user_profile_image img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fc975d;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.user_profile_info {
+  padding: 1rem 0rem;
+  text-align: center;
+}
+.user_profile_info h3 {
+  text-transform: capitalize;
+  font-weight: 700;
+  padding-bottom: 0.8rem;
+}
+
+.user_log {
+  text-align: center;
+  border-bottom: 2px dotted #000;
+  padding-bottom: 2rem;
+}
+.user_log button {
+  border: none;
+  background: #e93c05;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  transition: all 0.4s;
+}
+.user_log button:hover {
+  background: transparent;
+  border: 1px solid gray;
+}
+.user_log button:hover a {
+  color: red;
+}
+.user_log button a {
+  color: #fff;
+  padding: 0.4rem;
+}
+
+.flow_us_social {
+  padding: 2rem 0rem;
+  border-bottom: 2px dotted gray;
+}
+
+.app_download {
+  padding: 2rem 0rem;
+  text-align: center;
+}
+.app_download button {
+  border: 1px solid gray;
+  padding: 0.8rem;
+}
+.app_download button a img {
+  height: 3.5rem;
+}
+
+.user_faq {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  display: grid;
+}
+.user_faq h1 {
+  color: #fc975d;
+}
+
+@media only screen and (max-width: 1200px) {
+  .index_main_slider {
+    height: 100%;
+    width: 100%;
+  }
+  .index_slider_content {
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    align-content: center;
+    display: grid;
+    padding: 4rem 1rem;
+  }
+}
 body {
   background-color: #fff;
   scroll-behavior: smooth;
