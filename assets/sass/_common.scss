@@ -477,3 +477,18 @@ form{
     }
 }
 
+// hands footer social 
+.footer_socials{
+    border: 1px solid red ;
+    padding: 1rem ;
+    text-align: center;
+    a{
+        padding: .5rem .8rem ;
+        color: #fff;
+        font-size: 2rem;
+        transition: all 0.35s;
+        &:hover{
+            color: red;
+        }
+    }
+}

@@ -394,6 +394,21 @@ form .submit_button {
   border: 1px solid #f38e0b;
 }
 
+.footer_socials {
+  border: 1px solid red;
+  padding: 1rem;
+  text-align: center;
+}
+.footer_socials a {
+  padding: 0.5rem 0.8rem;
+  color: #fff;
+  font-size: 2rem;
+  transition: all 0.35s;
+}
+.footer_socials a:hover {
+  color: red;
+}
+
 .index_banner {
   background-image: url("../img/banner-bg1.jpg");
   background-position: center;
