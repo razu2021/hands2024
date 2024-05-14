@@ -292,95 +292,6 @@ form .submit_button {
   font-size: 1.6rem;
 }
 
-.card3 {
-  position: relative;
-  border: 1px solid rgba(128, 128, 128, 0.55);
-  padding: 1rem;
-  transition: all 0.35s;
-  overflow: hidden;
-  background: #fff;
-}
-
-.card3:hover {
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
-}
-
-.card3:hover .card3_profile img {
-  transform: scale(1.1);
-  transition: all 0.35s;
-}
-
-.card3:hover .card3_social {
-  opacity: 1; /* Make it visible */
-  visibility: visible; /* Ensure it's not just transparent but also clickable and interactable */
-  animation: socialshow 1s linear forwards; /* Use forwards to maintain the final animation state */
-}
-
-.card3_social {
-  position: absolute;
-  padding: 0.5rem;
-  top: 10%;
-  right: 0;
-  background: #fff;
-  opacity: 0; /* Initially hidden */
-  visibility: hidden; /* Ensure it doesn't block clicks */
-  transition: visibility 0s, opacity 0.35s linear; /* Control visibility transition */
-  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
-}
-.card3_social ul li a {
-  font-size: 2.5rem;
-}
-
-@keyframes socialshow {
-  0% {
-    right: 5%;
-  }
-  100% {
-    right: 0;
-  }
-}
-.card3_profile {
-  width: 100%;
-  height: 30rem;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.card3_profile img {
-  height: 30rem;
-  width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
-.card3_info {
-  background: #fff;
-  padding: 1rem 0rem;
-}
-.card3_info h1 {
-  font-size: 3rem;
-  color: #27477d;
-  font-weight: 700;
-  font-family: "Open Sans", sans-serif;
-  padding: 0.5rem 0rem;
-}
-.card3_info b {
-  color: #07ccec;
-}
-.card3_info p {
-  color: #888c92;
-  padding: 1rem 0rem;
-}
-.card3_info ul li span {
-  color: #07ccec;
-  padding-right: 1.1rem;
-}
-.card3_info ul li a {
-  color: #27477d;
-}
-.card3_info ul li a:hover {
-  color: #e93c05;
-}
-
 .hands_photo {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   height: 40rem;
@@ -409,6 +320,117 @@ form .submit_button {
   color: red;
 }
 
+.appoinment_about {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  display: grid;
+}
+
+.app_about_content h1 {
+  color: #27477d;
+  font-weight: 700;
+  padding: 1rem 0rem;
+  font-size: 2.5rem;
+}
+.app_about_content h1 span {
+  color: #e93c05;
+}
+.app_about_content p {
+  text-align: justify;
+}
+
+/* mentor_part start */
+.mentors_profile {
+  position: relative;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  transition: all 1s;
+}
+
+.profile_social {
+  position: absolute;
+  background-color: #06284D;
+  right: 0;
+  top: 10%;
+  opacity: 0; /* Initially hidden */
+  visibility: hidden; /* Ensure it doesn't block clicks */
+  transition: visibility 0s, opacity 0.35s linear; /* Control visibility transition */
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+.mentors_profile:hover .profile_social {
+  opacity: 1; /* Make it visible */
+  visibility: visible; /* Ensure it's not just transparent but also clickable and interactable */
+  animation: socialshow 1s linear forwards; /* Use forwards to maintain the final animation state */
+}
+
+@keyframes socialshow {
+  0% {
+    right: 5%;
+  }
+  100% {
+    right: 0;
+  }
+}
+.profile_social a {
+  display: block;
+  padding: 5px 10px;
+  border-bottom: 1px solid gray;
+  color: #fff;
+}
+
+.profile_social a:hover {
+  color: red;
+}
+
+.mentors_profile:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 1s;
+}
+
+.mentors_profile:hover .mprofile img {
+  transform: scale(1.2);
+  transition: all 1s;
+  padding: 1rem;
+}
+
+.mprofile {
+  height: 35rem;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.mprofile img {
+  height: 100%;
+  width: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile_content {
+  padding: 1rem;
+  text-align: left;
+}
+
+.profile_content h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #06284D;
+}
+
+.profile_content p {
+  text-align: justify;
+}
+
+/* mentor_part end */
 .index_banner {
   background-image: url("../img/banner-bg1.jpg");
   background-position: center;
@@ -2029,7 +2051,6 @@ form .submit_button {
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
   padding: 0.5rem 0rem;
-  text-transform: capitalize;
 }
 .programe_content h2 span {
   font-size: 4.5rem;
@@ -2257,7 +2278,7 @@ form .submit_button {
 }
 
 .contact_banner {
-  background-image: url(../img/contactbanner.jpg);
+  background-image: url(../img/banner/handsbanner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -2265,48 +2286,16 @@ form .submit_button {
      object-fit: cover;
 }
 .contact_banner .bannerbg {
-  background: rgba(255, 255, 255, 0.68);
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
+  background: rgba(0, 0, 0, 0.57);
 }
 
-.banner_content {
-  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-          clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-  background: transparent;
-  text-align: center;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
-.banner_content img {
-  height: 40rem;
-  width: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
-  z-index: -1;
-}
-
-.banner_contents {
-  text-align: center;
-  padding-top: 10rem;
-}
 .banner_contents h1 {
-  font-size: 4.5rem;
-  color: #000;
-  font-weight: 700;
-  font-family: "Open Sans", sans-serif;
-  padding: 0.5rem 0rem;
-  position: relative;
   text-transform: uppercase;
-}
-.banner_contents h1 span {
-  color: red;
-}
-.banner_contents p {
-  color: #000;
-  font-size: 2rem;
-  font-weight: 400;
-  padding: 1rem 0rem;
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #fff;
+  padding: 6rem 0rem;
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3);
 }
 
 .contact_details {
@@ -2320,11 +2309,11 @@ form .submit_button {
   transition: 1s all;
 }
 .contact_details:hover {
-  border-radius: 3rem;
-  background: var(--header_bg);
+  border-radius: 0.5rem;
+  border: 0.1rem solid red;
 }
 .contact_details:hover a, .contact_details:hover p {
-  color: #fff;
+  color: #000;
 }
 .contact_details:hover .detais_icon {
   background: #BD1D1D;
@@ -3139,7 +3128,7 @@ body {
 }
 .health_content p {
   text-align: justify;
-  padding: 2rem 0rem;
+  padding: 0.5rem 0rem;
 }
 .health_content p.first_child::first-letter {
   color: green;

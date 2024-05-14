@@ -1,19 +1,4 @@
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //---------------partner page or other programe page css start here ------------------
 #sections{
     height: 100%;
@@ -97,7 +82,7 @@
     z-index: +1;
     h2{
         @include heading1($color:$color3);
-        text-transform: capitalize;
+        
         span{
             font-size: 4.5rem;
             color: red;
