@@ -244,6 +244,40 @@ header{
   }
 
 /* index banner end  */
+
+.product_image-lr{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 50%;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 15rem;
+    width: 15rem;
+    img{
+        height: 11rem;
+        width: 11rem;
+        object-fit: cover;
+    }
+}
+.product_image{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 50%;
+ 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 15rem;
+    width: 15rem;
+    img{
+        height: 11rem;
+        width: 11rem;
+        object-fit: cover;
+    }
+}
+
+
+
+
+
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
