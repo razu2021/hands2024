@@ -106,3 +106,28 @@ $(document).ready(function(){
         }
     });
   });
+// zoom banner child protection 
+$(document).ready(function(){
+    $(".about_reviws").owlCarousel({
+        items:2,
+        autoplay:true,
+        loop:true,
+       // nav: false,
+        marginbottom:0,
+       // navText: ["<span class='prev'>  <  </span>", "<span class='next'> > </span>"],
+        responsive:{
+            0:{
+                items:1,
+                nav: false,
+            },
+            600:{
+                items:1,
+                nav: false,
+            },
+            1000:{
+                items:2,
+                dots:false,
+            }
+        }
+    });
+  });
