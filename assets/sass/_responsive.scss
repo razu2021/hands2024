@@ -41,6 +41,27 @@
           object-fit: cover;
       }
   }
+  // testimonial
+  .clients_profile{
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 2rem ;
+  }
+  .cl_pro{
+    img{
+      height: 7rem;
+      width: 7rem !important;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      box-shadow: rgba(230, 231, 231, 0.12) 0px 2px 4px 0px, rgba(238, 239, 240, 0.32) 0px 2px 16px 0px;
+      overflow: hidden;
+    }
+  }
+  // testimonial end
+
 
 
 }
