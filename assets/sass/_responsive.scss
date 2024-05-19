@@ -61,7 +61,18 @@
     }
   }
   // testimonial end
-
+  .whats_new_image{
+    height: auto;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    img{
+      height: auto;
+      width:auto;
+      margin: 1rem;
+    }
+  }
 
 
 }

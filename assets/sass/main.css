@@ -3406,6 +3406,18 @@ form .submit_button {
     box-shadow: rgba(230, 231, 231, 0.12) 0px 2px 4px 0px, rgba(238, 239, 240, 0.32) 0px 2px 16px 0px;
     overflow: hidden;
   }
+  .whats_new_image {
+    height: auto;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .whats_new_image img {
+    height: auto;
+    width: auto;
+    margin: 1rem;
+  }
 }
 body {
   background-color: #fff;
