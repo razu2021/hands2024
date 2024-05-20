@@ -1326,6 +1326,32 @@ form .submit_button {
   text-align: left;
 }
 
+.our_strtigy {
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  height: 80rem;
+  overflow-y: scroll;
+}
+
+.stretigy_content h4 {
+  font-weight: 700;
+  color: #000;
+  padding: 1rem 0rem;
+  font-size: 2.7rem;
+}
+.stretigy_content h5 {
+  font-weight: 700;
+  color: #011a41;
+  padding-top: 2rem;
+}
+.stretigy_content h6 {
+  padding: 1rem 0rem;
+  font-weight: 700;
+}
+.stretigy_content p {
+  text-align: justify;
+}
+
 .microfinacne_content h5 {
   border-bottom: 1px solid bisque;
   display: inline-block;
@@ -3418,6 +3444,11 @@ form .submit_button {
     width: auto;
     margin: 1rem;
   }
+  .our_strtigy {
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    overflow-x: none;
+  }
 }
 body {
   background-color: #fff;
@@ -3637,6 +3668,7 @@ body {
 
 .or_team {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  height: 53rem;
 }
 
 .or_team_profile {
@@ -3674,7 +3706,7 @@ body {
   font-weight: 700;
   font-family: "Open Sans", sans-serif;
   padding: 0.5rem 0rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .sinior_officials {
